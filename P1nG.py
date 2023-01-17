@@ -5,8 +5,8 @@ import webbrowser
 import pygame.font
 
 print("Welcome to P1nG 1.3v")
-print("Xander, all rights don't exist")
-print("----------------------------------------")
+print("Xander, all rights reserved")
+print("-------------------------------")
 
 variables = {}
 
@@ -62,8 +62,8 @@ while True:
             width, height = size.split("-")
             width = int(width)
             height = int(height)
-            running = True
             window = pygame.display.set_mode((width, height))
+            running = True
             print(f"Pygame window of size {width}x{height} created.")
             print('')
             while running:
